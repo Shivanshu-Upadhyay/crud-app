@@ -2,13 +2,13 @@ import   firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD38Z8GOyoHrCRCupULVIdUW-xRhFEKFQ8",
-  authDomain: "crud-app-f8343.firebaseapp.com",
-  projectId: "crud-app-f8343",
-  storageBucket: "crud-app-f8343.appspot.com",
-  messagingSenderId: "55704543199",
-  appId: "1:55704543199:web:613c570311034c1b8e6e6a",
-  measurementId: "G-J326TZDP1J",
+  apiKey: "AIzaSyDZcEdntvkquGb1uXbdeUcnxXWKSjEPFEU",
+  authDomain: "subject-crud.firebaseapp.com",
+  projectId: "subject-crud",
+  storageBucket: "subject-crud.appspot.com",
+  messagingSenderId: "48030750339",
+  appId: "1:48030750339:web:5a7a66874b3545c9022db6",
+  measurementId: "G-XF812G1QDT",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
