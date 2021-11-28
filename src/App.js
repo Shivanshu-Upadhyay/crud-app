@@ -1,12 +1,14 @@
-import './App.css';
-import Home from './Home';
+import "./App.css";
+import Home from "./Home";
+import Email from "./components/Email";
+
 function App() {
   return (
     <div>
-      <Home/>
+      <Home />
+      <Email />
     </div>
   );
 }
-
 
 export default App;
