@@ -1,12 +1,14 @@
 import "./App.css";
-import Home from "./Home";
+import Home from "./components/Home";
 import Email from "./components/Email";
+import Weather from "./components/Weather";
 
 function App() {
   return (
     <div>
-      <Home />
-      <Email />
+      <Weather/>
+      <Home/>
+      <Email/>
     </div>
   );
 }

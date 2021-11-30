@@ -8,7 +8,7 @@ import {
   editDataInitiate,
   getDataInitiate,
   getDatasInitiate,
-} from "./redux/actions";
+} from "../redux/actions";
 
 const initialState = {
   subject: "",
