@@ -1,9 +1,8 @@
 import React from "react";
-import emailjs from 'emailjs-com'
-import { ToastContainer, toast } from "react-toastify";
+import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
 import Img from "../img/Img.svg";
 function Email() {
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -31,7 +30,7 @@ function Email() {
           console.log(error.text);
         }
       );
-      e.target.reset()
+    e.target.reset();
   };
 
   return (
@@ -92,7 +91,6 @@ function Email() {
                       <div className="col-12">
                         <input
                           type="submit"
-                         
                           className="btn btn-primary rounded-0 py-2 px-4  mb-4"
                         />
                         <span className="submitting"></span>
@@ -103,9 +101,6 @@ function Email() {
               </div>
             </div>
           </div>
-        </div>
-        <div>
-          <ToastContainer />
         </div>
       </div>
     </>
